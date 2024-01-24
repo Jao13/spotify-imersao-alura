@@ -92,3 +92,30 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.playlist-container {
+    background-color: var(--bg-top-bar);
+    border-radius: 10px;
+    position: fixed;
+    left: 21.5%;
+    top: 14%;
+    width: 74.2vw;
+    height: 68vh;
+}
+
+.playlist {
+    margin: 24px;
+}
+
+.playlist #greeting {
+    color: var(--text-base-light);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .sesion {
+    color: var(--text-base-light);
+  font-size: 24px;
+  font-weight: 700;
+}
