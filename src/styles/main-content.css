@@ -94,7 +94,7 @@
 }
 
 .playlist-container {
-    background-color: var(--bg-top-bar);
+    background-color: #121212;
     border-radius: 10px;
     position: fixed;
     left: 21.5%;
