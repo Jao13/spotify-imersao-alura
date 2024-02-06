@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-login</title>
+    <link rel="icon" type="image/x-icon" href="/src/assets/favicon.png">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/login.css">
+    <link rel="stylesheet" href="./src/styles/solid.css">
+    <link rel="stylesheet" href="./src/styles/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <section class="header__container">
+            <img class="logo" src="./src/assets/logo-spotify.png" alt="logo-spotify">
+        </section>
+    </header>
+
+    <main class="position__container">
+        <section class="list__container">
+          <nav class="space__container">
+                <h1 class="list-title">Iniciar sessão no Spotify</h1>
+
+             <div class="button__login">
+                <button class="button-google">
+                    <img class="img-goolge" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/>
+                    <span>Continuar com o Google</span>
+                </button>
+             </div>
+
+            <div class="button__login">
+                <button class="button-facebook">
+                    <img class="img-facebook" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/>
+                    <span>Continuar com o Facebook</span>
+                </button>
+            </div> 
+              
+            
+
+                <div class="button__login">
+                    <button class="button-apple">
+                        <img src="https://accounts.scdn.co/sso/images/new-apple-icon.e356139ea90852da2e60f1ff738f3cbb.svg" alt="logo-apple">
+                        <span>Continuar com a Apple</span>
+                    </button>
+                </div>
+
+                <div class="button__login">
+                    <button id="tel" class="button-telefone">
+                        <span>Continuar com o número de telefone</span>
+                    </button>
+                </div>
+                <hr class="line">
+
+                <section class="info__position">
+                    <span class="email">E-mail ou nome de utilizador</span>
+                    <input class="search-email" type="text" maxlength="800" placeholder=" E-mail ou nome de utilizador" checked/>
+
+                    <span class="senha">Palavra-passe</span>
+                    <input class="search-senha" type="text" maxlength="800"placeholder="Palavra-passe" checked/>
+                    
+                    <a href="index.html"><button class="button-log">Iniciar sessão</button></a>
+
+                    <a class="remenber-senha" href="/">Esqueçeu sua senha?</a>
+                </section>
+                <hr class="line">
+
+              <div class="registro">
+                <span>Não tem conta?</span>
+                <a class="registro-spot" href="/">Registrar-Spotify</a>
+               </div>    
+
+            </nav>
+        </section>
+    </main>
+
+    <footer class="footer__container">
+            <span class="p-footer">Este site é protegido por reCAPTCHA. Aplicam-se a <a href="/">Política de Privacidade</a> e os <a href="/"> Termos do Serviço da Google.</a></span>
+    </footer>
+</body>
+</html>

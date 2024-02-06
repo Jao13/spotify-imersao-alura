@@ -1,9 +1,18 @@
 body {
-    background: url(/src/assets/illustration-video-games-pixel-art-space-red-nebula-106708-wallhere.com.png) no-repeat center center;
-    background-size: cover;
-    height: 100vh;
+    background: linear-gradient(to left, #E00A24, #AA0707, #4F0832, #07041E);
+    background-size: 500% 100%;
+    animation: degrade-animation 5s infinite alternate;
     font-family: var(--font-dm-sans);
     overflow: hidden;
+}
+
+@keyframes degrade-animation {
+   0% {
+    background-position: 0%;
+   }
+   100% {
+    background-position: 100%;
+   }
 }
 
 h1 {
@@ -23,6 +32,10 @@ h1 {
     background: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation a:hover {
+    color: #fff;
 }
 
 .sidebar__navigation .logo {
@@ -215,7 +228,7 @@ footer {
 
 .footer__button {
     position: relative;
-    left: 78%;
+    left: 72%;
     bottom: 33px;
     border: 0;
     background-color: #fff;

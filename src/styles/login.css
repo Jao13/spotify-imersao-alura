@@ -1,0 +1,194 @@
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+.header__container {
+   padding: 32px 0px 32px 51px;
+}
+
+.logo {
+    height: 36px;
+    width: 117px;
+}
+
+.position__container {
+    flex: 3 1 0%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 32px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgb(0, 0, 0) 100%);
+}
+
+.list__container {
+    background-color: var(--bg-base-list, #ffffff);
+    color: white;
+    row-gap: normal;
+    border-radius: 8px;
+    padding: 32px 0px;
+    width: 734px;
+}
+
+.space__container {
+    max-width: 734px;
+    width: 100%;
+}
+
+.list-title {
+    text-align: center;
+    margin: 48px 0px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--font-family, CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    color: inherit;
+}
+
+.button__login {
+    list-style: none;
+    padding: 0px;
+    text-indent: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    margin: 0px auto;
+    row-gap: normal;
+}
+
+.button-google, .button-facebook, .button-apple {
+    background: none;
+    border: 1px solid #727272;
+    border-radius: 500px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    font-family: var(--font-family, CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    padding-inline: 31px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-google:hover, .button-facebook:hover, .button-apple:hover, .button-telefone:hover {
+    border: 1px solid #fff;
+}
+
+.img-goolge, .img-facebook {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.button-telefone {
+    background: none;
+    border: 1px solid #727272;
+    border-radius: 500px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    font-family: var(--font-family, CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    padding-inline: 31px;
+    height: 60.4px;
+    text-align: center;
+}
+
+.line {
+    margin: 32px 100px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+
+.info__position {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    margin: 0px auto;
+    font-family: var(--font-family, CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+}
+
+.email, .senha {
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding-bottom: 9px;
+}
+
+.search-email, .search-senha {
+    background: none;
+    border: 1px solid #727272;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.search-email:hover, .search-senha:hover {
+    border: 1px solid #fff;
+}
+
+.button-log {
+    border: none;
+    border-radius: 500px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #000;
+    text-align: center;
+    margin: 32px 0;
+    height: 48px;
+    background: transparent;
+    background-color: #1ed760;
+    width: 324px;
+}
+
+.button-log:hover {
+    transform: scale(1.04);
+}
+
+.remenber-senha {
+    color: #fff;
+    text-align: center;
+}
+
+.remenber-senha:hover {
+    color: #1ed760;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.registro .registro-spot {
+    color: #fff;
+}
+
+.registro .registro-spot:hover {
+    color: #1ed760;
+}
+
+.footer__container {
+    background-color: var(--bg-base-list, #ffffff);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer {
+    color: #727272;
+    font-size: 12px;
+}
+
+.p-footer a {
+    color: #858484;
+}
